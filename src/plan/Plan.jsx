@@ -1,3 +1,11 @@
-export default function Plan() {
-  return <div>Here is the your weekly plan, enjoy it!</div>
+import React from "react";
+
+function Plan() {
+  return (
+    <div className="plan">
+      <h1>My Plan</h1>
+    </div>
+  );
 }
+
+export default Plan;

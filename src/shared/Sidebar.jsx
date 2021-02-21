@@ -19,7 +19,7 @@ function Sidebar() {
         </Link>
       </div>
       <side className={sidebarSelected ? "side-menu active" : "side-menu"}>
-        <ul className="side-menu-items">
+        <ul className="side-menu-items" onClick={showSidebar}>
           <li className="sidebar-toggle">
             <Link to="#" className="menu-bars">
               <AiIcons.AiOutlineClose />
